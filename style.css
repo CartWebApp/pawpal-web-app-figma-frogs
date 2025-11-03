@@ -65,8 +65,29 @@ nav > a, nav > ul > li > a {
 
 /* Index */
 
-.hero-image {
-  background-clip: var();
+.hero-image
+{
+  position: relative;
+  height: 50vh;
+}
+
+.hero-image > video {
+  position: absolute;
+  z-index: 1;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform:  translate(-50%, -50%);
 }
 
 /* Reminders page */
