@@ -108,6 +108,17 @@ nav > a, nav > ul > li > a {
   
 }
 
+/* Privacy & Security */
+.title-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #58336B;
+  width: 15rem;
+}
+
+
 /* mobile styles */
 @media screen and (max-width:680px){
 
@@ -121,3 +132,4 @@ nav > a, nav > ul > li > a {
   }
 
 }
+
