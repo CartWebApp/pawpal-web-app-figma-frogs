@@ -63,6 +63,12 @@ nav > a, nav > ul > li > a {
   border-radius: 10px;
 }
 
+/* Index */
+
+.hero-image {
+  background-clip: var();
+}
+
 /* Reminders page */
 
 .remind-sections {
