@@ -306,6 +306,9 @@ body {
   max-width: 800px;
   height: auto; 
   background-color: #fff;
+  background-image: url(images/bargraph.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 8px;
   margin: 0 auto;
   padding: 20px; 
