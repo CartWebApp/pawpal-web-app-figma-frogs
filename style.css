@@ -305,6 +305,9 @@ body {
   width: 90%;
   height: 250px;
   background-color: #fff;
+  background-image: url(images/bargraph.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 8px;
   margin: 0 auto;
 }
