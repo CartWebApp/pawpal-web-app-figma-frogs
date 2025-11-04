@@ -304,20 +304,16 @@ body {
 .analytics-page .bar {
   width: 90%;
   max-width: 800px;
-  height: auto; 
-  background-color: #fff;
-  background-image: url(images/bargraph.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #653a74;
   border-radius: 8px;
   margin: 0 auto;
-  padding: 20px; 
+  padding: 20px;
   text-align: center;
 }
 
 .analytics-page .bar img {
-  width: 100%; 
-  height: auto; 
+  width: 100%;
+  height: auto;
   border-radius: 8px;
 }
 
@@ -681,8 +677,7 @@ a[href="signup.html"]:last-of-type {
 
 
 /* mobile styles */
-@media screen and (max-width:680px){
-
+@media screen and (max-width:680px) {
   nav {
     flex-wrap: wrap;
   }
@@ -691,8 +686,9 @@ a[href="signup.html"]:last-of-type {
     width: 100%;
     justify-content: center;
   }
+}
 
-  @media (min-width: 700px) {
+@media (min-width: 700px) {
   .home-page main {
     flex-direction: row;
     flex-wrap: wrap;
@@ -702,7 +698,6 @@ a[href="signup.html"]:last-of-type {
   .home-page main section {
     margin: 20px;
   }
-
 }
 
 @media (max-width: 700px) {
