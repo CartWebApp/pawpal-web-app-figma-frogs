@@ -151,7 +151,7 @@ div {
 }
 
 h2 {
-  background-color: #5d185f;
+  background-color: #58336B;
   width: 100%;
   padding: 12px;
   margin: 0;
@@ -189,7 +189,7 @@ a:hover {
   background-color: #8c358e;
 }
 
-a[href="signup.html"]last-of-type {
+a[href="signup.html"]:last-of-type {
   color: red;
   align-self: flex-start;
 }
@@ -206,7 +206,7 @@ a[href="signup.html"]last-of-type {
     width: 100%;
     justify-content: center;
   }
-   
+
 
 }
 
