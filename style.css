@@ -140,7 +140,7 @@ nav > a, nav > ul > li > a {
 }
 
 /* Settings */
-div {
+.settings-section {
   background-color: #6b1e6d;
   display: flex;
   flex-direction: column;
@@ -150,23 +150,15 @@ div {
   border-radius: 8px;
 }
 
-h2 {
-  background-color: #58336B;
-  width: 100%;
-  padding: 12px;
-  margin: 0;
-  border-radius: 8px 8px 0 0;
-  text-align: left;
-}
 
-ul {
+.setting-list {
   list-style: none;
   padding: 0;
   margin: 0;
   width: 100%;
 }
 
-li {
+.settings {
   border-bottom: 1px solid #875d87;
   padding: 12px;
   width: 100%;
@@ -174,8 +166,8 @@ li {
   cursor: pointer;
 }
 
-li:hover {
-  background-color: #8c358e;
+.settings:hover {
+  background-color: #6b1e6d;
 }
 
 a {
