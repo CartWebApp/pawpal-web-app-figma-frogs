@@ -90,6 +90,28 @@ nav > a, nav > ul > li > a {
   transform:  translate(-50%, -50%);
 }
 
+/* Log in */
+.background-video {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+}
+
+.login-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform:  translate(-50%, -50%);
+  
+}
+
+
+
 /* Reminders page */
 
 .remind-sections {
@@ -424,6 +446,7 @@ a[href="signup.html"]:last-of-type {
   color: red;
   align-self: flex-start;
 }
+
 
 
 /* mobile styles */
