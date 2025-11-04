@@ -303,10 +303,19 @@ body {
 
 .analytics-page .bar {
   width: 90%;
-  height: 250px;
+  max-width: 800px;
+  height: auto; 
   background-color: #fff;
   border-radius: 8px;
   margin: 0 auto;
+  padding: 20px; 
+  text-align: center;
+}
+
+.analytics-page .bar img {
+  width: 100%; 
+  height: auto; 
+  border-radius: 8px;
 }
 
 
